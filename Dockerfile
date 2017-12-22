@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v0.14.24-onbuild
+FROM fluent/fluentd:v0.14.25-onbuild
 LABEL maintainer="eversmcc@gmail.com"
 
 RUN apk add --update --virtual .build-deps \
