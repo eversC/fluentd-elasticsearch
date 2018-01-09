@@ -6,6 +6,7 @@ RUN apk add --update --virtual .build-deps \
 
  && sudo gem install \
         fluent-plugin-elasticsearch \
+        fluent-plugin-kubernetes_metadata_filter \
 
  && sudo gem sources --clear-all \
  && apk del .build-deps \
